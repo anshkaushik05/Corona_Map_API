@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Map API</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id='map' style='width: 100vw; height: 100vh;'></div>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW5zaGthdXNoaWswNSIsImEiOiJja3RhOTR2YzgwOXF6MnZrNGd5cHI0eWhqIn0.sxB9daxHuwayQIeUm6u7Pg';
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/dark-v10',
+          center: [ 78.9629 ,23.473324], // starting position [lng, lat] India/Coordinates 20.5937° N, 78.9629°
+          zoom: 1.5
+        });
+       
+
+
+
+        
+
+
+
+      </script>
+    <script src="index.js"></script>
+</body>
+</html>
